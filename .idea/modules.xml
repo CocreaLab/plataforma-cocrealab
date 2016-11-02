@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plataforma-cocrealab.iml" filepath="$PROJECT_DIR$/.idea/modules/plataforma-cocrealab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plataforma-cocrealab_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/plataforma-cocrealab_integrationTest.iml" group="plataforma-cocrealab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plataforma-cocrealab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/plataforma-cocrealab_main.iml" group="plataforma-cocrealab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plataforma-cocrealab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/plataforma-cocrealab_test.iml" group="plataforma-cocrealab" />
+    </modules>
+  </component>
+</project>
