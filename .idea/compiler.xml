@@ -19,9 +19,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cocrealab2_integrationTest" target="1.8" />
-      <module name="cocrealab2_main" target="1.8" />
-      <module name="cocrealab2_test" target="1.8" />
+      <module name="server_integrationTest" target="1.8" />
+      <module name="server_main" target="1.8" />
+      <module name="server_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

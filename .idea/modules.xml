@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client.iml" group="client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cocrealab2.iml" filepath="$PROJECT_DIR$/.idea/modules/cocrealab2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cocrealab2_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cocrealab2_integrationTest.iml" group="cocrealab2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cocrealab2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cocrealab2_main.iml" group="cocrealab2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cocrealab2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cocrealab2_test.iml" group="cocrealab2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_integrationTest.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
     </modules>
   </component>
 </project>
