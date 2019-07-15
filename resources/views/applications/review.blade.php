@@ -14,9 +14,13 @@
         <p><strong>Documentos para revisar :</strong></p>
         <hr>
         <div class="form-group">
-            @foreach($documents as $document)
-            <a href="{{ route('download_file',['document'=>$document]) }}">{{$document->name}}</a>
-            @endforeach
+            <ul style="list-style-type: none;">
+                @foreach($documents as $document)
+                    <li>
+                        <a href="{{ route('download_file',['document'=>$document]) }}">{{$document->name}}</a>
+                    </li>
+                @endforeach
+            </ul>
         </div>
         <hr>
     </div>
@@ -38,7 +42,7 @@
                 @if(Auth::user()->role_id == 2)
                 <textarea id="observations" name="observations" class="form-control" rows="5">Observaciones de cocrealab({{Auth::user()->name}}) : ninguna observacion registrada</textarea>
                 @else
-                <textarea id="observations" name="observations" class="form-control" rows="5">{{old}}Observaciones de MinTic({{Auth::user()->name}}) : ninguna observacion registrada</textarea>
+                <textarea id="observations" name="observations" class="form-control" rows="5">{{$application->observations}} Observaciones de MinTic({{Auth::user()->name}}) : ninguna observacion registrada</textarea>
                 @endif
             </div>
 
